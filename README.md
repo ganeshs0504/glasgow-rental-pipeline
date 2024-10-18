@@ -2,6 +2,9 @@
 
 Rentflow is a project designed to compile and present all rental listings in Glasgow. The idea originated from my personal experience while searching for rental properties. This project showcases an end-to-end data pipeline, starting from data generation through web scraping, followed by data transformation, exporting data to a data warehouse, and ultimately building an interactive dashboard using Power BI.
 
+![Pipeline Diagram drawio file](https://github.com/user-attachments/assets/19ff433c-1753-4c42-bd2d-de77879863be)
+
+
 ## Project Overview
 
 1. **Data Collection**: Scrape rental listings from a website using Selenium.

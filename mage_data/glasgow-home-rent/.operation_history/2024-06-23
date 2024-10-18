@@ -1,0 +1,2 @@
+{"operation": "create", "resource": {"type": "pipeline", "uuid": "home_rent_etl_pipeline"}, "timestamp": 1719154269, "user": null}
+{"operation": "create", "resource": {"type": "pipeline", "uuid": "web_scraping_pipeline"}, "timestamp": 1719156085, "user": null}

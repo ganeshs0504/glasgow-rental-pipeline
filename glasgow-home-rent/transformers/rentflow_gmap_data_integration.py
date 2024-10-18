@@ -64,7 +64,7 @@ def transform(df, *args, **kwargs):
             origin_lat = legs['start_location']['lat']
             origin_lng = legs['start_location']['lng']
         
-            total_time = legs['duration']['value']
+            total_time = legs['duration']['value'] / 60
             total_dist = legs['distance']['value']
         
             for step in legs['steps']:
@@ -74,7 +74,7 @@ def transform(df, *args, **kwargs):
                     train_journey_time += step['duration']['value']
                 elif step['travel_mode'] == 'WALKING':
                     walking_distance += step['distance']['value']
-                    walking_time += step['duration']['value']
+                    walking_time += step['duration']['value'] / 60
         except Exception as e:
             print(e, row['station_1'])
             # train_journey_time = 0
